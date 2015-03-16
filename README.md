@@ -26,5 +26,5 @@ This circuit is designed to be an interactive badge for the IDIYA Grand Opening.
 	2. The MaxSonar sensor (one speaker, pulled from robot car) ---> **Use GrandOpen1.ino**
 
 - If using the MaxSensor (**recommended** since this is what I actually tested), two ways to measure distance via the code:
-	1. Using an analog measurement (**the only thing I got to work**)- connect pin2 on the sensor to an analog input pin on the Arduino.
-	2. Using a PWM pin- connect pin3 on the sensor to a digital input pin on the Arduino and use the "pulseIn()" function to measure distance (currently commented out) 
+	1. Using an analog measurement (the only thing I got to work)- **connect pin3** on the sensor to an analog input pin on the Arduino.
+	2. Using a PWM pin- connect pin2 on the sensor to a digital input pin on the Arduino and use the "pulseIn()" function to measure distance (currently commented out) 
